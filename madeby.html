@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonAboutUs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        header {
+            height: 10vh;
+            background-color: red;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: red;
+            background-color: white;
+            line-height: 10vh;
+            padding: 15px 25px;
+            margin-right: 45px;
+            border-radius: 10px;
+            font-family: sans-serif;
+        }
+
+        a:nth-child(1) {
+            margin-right: 40vw;
+            font-weight: bold;
+            color: blue;
+            text-transform: uppercase;
+        }
+
+        main {
+            height: 90vh;
+            background-image: url(pop-5475389_960_720.jpg);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        main div {
+            text-align: left;
+            background-color: black;
+            color: white;
+            width: 85vw;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+
+        div img {
+            width: 75px;
+            height: 65px;
+        }
+
+        main div {
+            float: left;
+            padding: 20px;
+        }
+
+        div div {
+            text-align: center;
+            padding: 0;
+        }
+
+        @media (max-width: 1520px) {
+            a:nth-child(1) {
+                margin-right: 10vw;
+                font-weight: bold;
+                color: blue;
+                text-transform: uppercase;
+            }
+        }
+
+        @media (max-width: 700px) {
+            header {
+                height: 20vh;
+            }
+
+            a:nth-child(1) {
+                margin-right: 10px;
+                font-weight: bold;
+                color: blue;
+                text-transform: uppercase;
+            }
+
+            a {
+                line-height: 10vh;
+                text-decoration: none;
+                font-size: 15px;
+                color: red;
+                background-color: white;
+                padding: 10px 15px;
+                margin-right: 10px;
+                border-radius: 6px;
+                font-family: sans-serif;
+            }
+
+
+
+            main {
+                height: 80vh;
+                /* background-image: url(pokemon-1601385_1920.jpg); */
+                background-size: cover;
+                background-position: -300px, -100px;
+            }
+
+            .main {
+                font-size: 18px;
+                width: 85vw;
+            }
+
+
+
+            div img {
+                width: 50px;
+                height: 50px;
+            }
+
+        }
+
+        a:nth-child(1):hover {
+            cursor: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#">DexterBot</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=744258869508702221&scope=bot&permissions=8">Invite the
+            bot</a>
+        <a href="https://discord.gg/VdZY5tH">Support</a>
+        <a href="aboutus.html">AboutUs</a>
+        <a href="#">Credits</a>
+        <a href="index.html">MainPage</a>
+    </header>
+    <main>
+        <div class="main">
+            <div>Made by <br> <br> Tides <br> GramosTV</div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
